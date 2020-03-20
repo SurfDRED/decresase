@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  node-app:
+    build: .
+    image: api-for-docker
+    ports:
+      - '9999:9999'
